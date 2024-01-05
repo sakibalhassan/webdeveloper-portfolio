@@ -3,6 +3,10 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+main section {
+    margin-top: 130px;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -146,4 +150,107 @@ main {
 
 .about-info {
     text-align: center;
+}
+
+/* what i do styles */
+
+#what-i-do-description {
+    padding: 30px 150px;
+    text-align: center;
+}
+
+.skill {
+    padding: 30px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+.skills-container {
+    display: flex;
+    gap: 24px;
+}
+
+.skill-title {
+    margin: 20px 0px 38px;
+    color: #181818;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+
+.skill-description {
+    color: #757575;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+/* resume section styles */
+.resume-container {
+    display: flex;
+    gap: 70px;
+}
+
+.resume-colum-title {
+    color: #474747;
+    font-family: Open Sans;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.resume-container hr {
+    margin-top: 30px;
+}
+
+.btn {
+    margin-top: 50px;
+    text-align: center;
+}
+
+/* footer-part styles */
+
+footer {
+    padding: 130px 230px;
+    background: #FFF8F3;
+    display: flex;
+    gap: 100px;
+    margin-top: 100px;
+}
+
+footer h3 {
+    color: #181818;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 227px;
+
+}
+
+footer p {
+    color: var(--Dark-02, #474747);
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    width: 576px;
+    margin: 20px 0;
+}
+
+.contact input {
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    color: #757575;
+    border-radius: 5px;
+    background: var(--White-Color, #FFF);
+    border: 0;
 }
